@@ -10,18 +10,20 @@
   </head>
   <body>
     <nav class="navbar is-dark">
-      <div class="navbar-start">
-        <ul id="lista">
-          <li><li></li></li>
-          <li>Me</li>
-          <li>Technologies</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
+      <div class="navbar-brand">
+        <figure class="image is-128x128"></figure>
       </div>
+      <div class="navbar-start">
+        <a href="#ancla-1" class="navbar-item">&bull;&nbsp;Me&nbsp;</a>
+        <a href="#ancla-2" class="navbar-item">&bull;&nbsp;Technologies&nbsp;</a>
+        <a href="#ancla-3" class="navbar-item">&bull;&nbsp;My projects&nbsp;</a>
+        <a href="#ancla-4" class="navbar-item">&bull;&nbsp;Contact&nbsp;</a>
+      </div>
+      
     </nav><br><br>
     <div class="content has-text-centered">
-      <h1 class="title">About Me</h1>
+      <a name="ancla-1"></a>      
+      <h1 class="title">Me</h1>
     </div>
     <div class="columns">
       <div class="column box">
@@ -33,7 +35,7 @@
           <p class="subtitle">
             &lt;!--Hi!, I am Gabriel Martínez and im in my second year studying web development.
             I am interested in backend development, servers, IoT and I am an active user of open source
-            technologies--&gt;<br>
+            technologies, I am really apassionate of free software--&gt;<br>
             <br>You can see me ---&gt; <a href="https://www.linkedin.com/in/gabriel-mart%C3%ADnez-camareno-21a06b264/" target="_blank">here</a>
           </p>
         </div>
@@ -47,16 +49,16 @@
               <li id = "par">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="componente">private</p>&nbsp;<p id="tipo">String</p>&nbsp;<p id="mnemonico">name</p>&nbsp; = &nbsp;<p id="valor">"Gabriel Martinez"</p>;</li>
               <li id = "par">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="componente">private</p>&nbsp; <p id="tipo">String</p>&nbsp; <p id="mnemonico">pronouns</p>&nbsp; = &nbsp;<p id="valor">"He/They"</p>;</li>
               <li id = "par">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="componente">private</p>&nbsp; <p id="tipo">int</p>&nbsp; <p id="mnemonico">age</p>&nbsp; = &nbsp;<p id="valor">16</p>;</li>
-              <li id = "par">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="componente">private</p>&nbsp; <p id="tipo">String[]</p>&nbsp; <p id="mnemonico">interests</p>&nbsp; = &nbsp;{<p id="valor">"Linux"</p>,<p id="valor">"Web Development"</p>,<p id="valor">"Open Source"</p>};</li>
-              <li id = "par">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="componente">private</p>&nbsp; <p id="tipo">String</p>&nbsp; <p id="mnemonico">nationality</p>&nbsp; = &nbsp;<p id="valor">"Costa Rica"</p>;</li>
-              <li id = "par">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="componente">private</p>&nbsp; <p id="tipo">String</p>&nbsp; <p id="mnemonico">actualDistro</p>&nbsp; = &nbsp;<p id="valor">"GNU/Linux Pop! OS"</p>;</li>
-              <li id = "par">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</li>
+              <li id = "par">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="componente">private</p>&nbsp; <p id="tipo">String</p>&nbsp; <p id="mnemonico">nationality</p>&nbsp; = &nbsp;<p id="valor">"Costa Rica"</p>;</li>
+              <li id = "par">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="componente">private</p>&nbsp; <p id="tipo">String</p>&nbsp; <p id="mnemonico">actualDistro</p>&nbsp; = &nbsp;<p id="valor">"GNU/Linux Pop! OS"</p>;</li>
+              <li id = "par">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</li>
             </ul>
           </h1>
         </div>
       </div>
     </div>
     <hr>
+    <a name="ancla-2"></a>      
     <div class="content has-text-centered">
       <h1 class="title">About Technologies</h1>
     </div>
@@ -110,6 +112,7 @@
     </div><br>
     
     <div class="box">
+      <a name="ancla-3"></a>      
       <div class="content has-text-centered">
         <h1 class="title">My First Projects</h1>
       </div><hr>
@@ -206,10 +209,12 @@
         </div>
       </div><hr>
     </div>
+    
     <footer class="footer">
       <div class="container block">
         <div class="content has-text-centered">
           <p>
+            <a name="ancla-4"></a>      
             <h1 class="subtitle is-3">Contact info</h1>
             <a href="https://twitter.com/2_rat1" target = "_blank" class="button is-black is-outlined">
               <span class="icon">
@@ -242,6 +247,14 @@
     </footer>
   </body>
 </html>
+<nav class="navbar is-dark">
+  <div class="navbar-start">
+    <a href="#ancla-1" class="navbar-item">&bull;&nbsp;Me</a>
+    <a href="#ancla-2" class="navbar-item">&bull;&nbsp;Technologies</a>
+    <a href="#ancla-3" class="navbar-item">&bull;&nbsp;My projects</a>
+    <a href="#ancla-4" class="navbar-item">&bull;&nbsp;Contact</a>
+  </div>
+</nav>
 <style>
   #mnemonico
   {
@@ -267,15 +280,5 @@
   {
     color: white;
     display: flex;
-  }
-  #lista
-  {
-    display: flex;
-  }
-  #lista li
-  {
-    margin: 20%;
-    margin-left: 35%;
-    color: white;
   }
 </style>
